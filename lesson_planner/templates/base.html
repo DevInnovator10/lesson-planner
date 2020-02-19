@@ -1,0 +1,139 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <!-- {% load static tailwind_tags %} -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lesson Planner Gpt</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Select2 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- {% tailwind_css %} -->
+    <style>
+      body {
+        background-color: #121212; /* if you're using a dark theme */
+        color: white;
+      }
+      .navbar {
+        background-color: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(10px);
+      }
+
+      .navbar-brand {
+        font-weight: bold;
+        color: #fff !important;
+        letter-spacing: 1px;
+      }
+
+      .nav-link {
+        color: #f8f9fa !important;
+      }
+      .chatBox {
+        height: 73vh !important;
+      }
+      @media (max-width: 1500px) {
+        .chatBox {
+          margin-right: 120px !important;
+        }
+      }
+    </style>
+  </head>
+  <!-- jQuery (required for Select2) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Select2 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  {% block extra_scripts %}{% endblock %}
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+      <div class="container-fluid">
+        <!-- Home Icon on Left -->
+        <div>
+          <a class="navbar-brand me-3" href="{% url 'home_screen' %}">
+            <img
+              src="{% static 'images/home-icon.png' %}"
+              alt="Home"
+              width="30"
+              height="30"
+            />
+          </a>
+        </div>
+        <!-- Collapsible Toggler -->
+        <div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <!-- Nav Links Aligned Right -->
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            {% if user.is_authenticated %} {% if user_role == 'admin' %}
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'search_view' %}"
+                >Generate Lesson</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'upload_document' %}"
+                >Upload Documents</a
+              >
+            </li>
+
+            {% elif user_role == 'client' %}
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'search_view' %}"
+                >Generate Lesson</a
+              >
+            </li>
+
+            {% endif %}
+
+            <li class="nav-item">
+              <form method="post" action="{% url 'logout' %}">
+                {% csrf_token %}
+                <button class="btn btn-sm btn-danger ms-2">Logout</button>
+              </form>
+            </li>
+            {% else %}
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'login' %}">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'signup' %}">Sign Up</a>
+            </li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid mt-5 pt-5">
+      {% block content %} {% endblock %}
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
