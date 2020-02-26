@@ -1,0 +1,661 @@
+10. Income Autopilot 2. Testing the Muse.
+Many of these theories have been killed off only when some decisive experiment exposed
+their incorrectness. Thus, the yeoman work in any science is done by the
+experimentalists who must keep the theoreticians honest. Michio Kaku,
+theoretical physicist and co-creator of string field theory, Hyperspace.
+Fewer than 5% of the 195,000 books published each year sell more than 5,000
+copies. Teams of publishers and editors with decades of combined experience fail
+than not. The founder of Borders Books lost $375 million of investor funding
+with Webvan, a nationwide grocery delivery service. The problem? No one
+wanted it. The moral is that intuition and experience are poor predictors of
+which products and businesses will be profitable. Focus groups are equally
+misleading. Ask 10 people if they would buy your product, then tell those who
+said yes that you have 10 units in your car and ask them to buy. The initial
+positive responses given by people who want to be liked and aim to please
+become polite refusals as soon as real money is at stake. To get an accurate
+indicator of commercial viability, don't ask people if they would buy, ask them
+to buy. The response to the second is the only one that matters. The approach of
+the NR reflects this. Step three, microtest your products. Microtesting
+involves using inexpensive advertisements to test consumer
+response to a product prior to manufacturing. It can be illegal to charge
+customers prior to shipment, so we will not charge customers, but it is still
+common practice. Why do so many commercials state allow three to four
+weeks for delivery if it only takes three to five days for a shipment to get
+from New York to California? It gives the company's time to manufacture product
+and use customers credit card payments to finance it. Clever, but often against
+the law. In the pre-internet era, this was done using small classified ads in
+newspapers or magazines that led prospects to call a pre-recorded sales
+message. Prospects would leave their contact information and based on the
+number of callers or response to a follow-up sales letter, the product would
+be abandoned or manufactured. In the internet era, there are better tools
+that are both cheaper and faster. We'll test the product ideas from the last
+chapter on Google AdWords, the largest and most sophisticated pay-per-click PPC
+engine, in five days for $500 or less. PPC here refers to the highlighted search
+results that are listed above and to the right of normal search results on Google.
+Advertisers pay to have these ads displayed when people search for a
+certain term related to the advertiser's product, such as cognitive supplement,
+and are charged a small fee from five cents to over one dollar each time
+someone clicks through to their site. For a good introduction to Google AdWords
+and PPC, visit www.google.com forward slash online business. For expanded
+examples of the following PPC strategies, including a full 90-day PPC marketing
+visit www.4hourworkweek.com. The basic test process consists of three parts,
+each of which is covered in this chapter.
+Best. Look at the competition and create a more compelling offer on a basic
+one to three page website, one to three hours. Test. Test the offer using short
+Google AdWords advertising campaigns, three hours to set up and five days of
+passive observation. Divest or invest. Cut losses with losers and manufacture the
+winners for sales rollout. Let's use two people, Sherwood and Johanna, and their
+two product ideas, French sailor shirts and a how-to yoga DVD for rock climbers
+as case studies of what the testing steps look like and how you can do the same.
+Sherwood bought a striped sailing shirt in France while traveling last summer
+and upon returning to NYC has been continually approached by 20 to 30-year-old males on the
+street who want to know where to get their own. Sensing an opportunity, he requests back
+issues of NYC-based weekly magazines aimed at this demographic and calls the
+manufacturer in France for pricing. He learns that he can purchase shirts at a wholesale
+price of $20 that sell for $100 retail. He adds $5 per shirt to account for shipping
+to the United States and arrives at a per-shirt cost of $25. It's not quite our ideal markup,
+four times versus eight to ten times, but he wants to test the product regardless.
+Johanna is a yoga instructor who has noticed her growing client base of rock climbers.
+She is also a rock climber and is considering creating a yoga instructional DVD tailored to
+that sport, which would include a 20-page spiral-bound manual and be priced at $80.
+She predicts that production of a low-budget first edition of the DVD would cost nothing
+more than a borrowed camera, one 90-minute digital tape, and a friend's iMac for simple
+editing. She can burn small quantities of this first edition DVD, no menus, just straight
+footage and titles, on the laptop and create labels with freeware from www.download.com.
+She has contacted a duplication house and learned that more professional DVDs will cost $3 to $5 a
+piece to duplicate in small quantities, minimum of $250, including cases. Now that they have
+ideas and estimates of startup costs, what next? Besting the competition. First and foremost,
+each product must pass a competitive litmus test. How can Sherwood and Johanna beat the
+competition and offer a superior product or guarantee? One, Sherwood and Johanna Google
+the top terms each would use to try and find their respective products. To come up with
+related terms and derivative terms, both use search term suggestion tools. Overture,
+HTTP colon forward slash forward slash inventory dot overture dot com forward slash d forward slash
+search inventory forward slash suggestion. Google, HTTPS colon forward slash forward slash
+adwords dot google dot com forward slash select forward slash main question mark CMD equals
+keyword sandbox ask dot com www.ask.com. Type in one term and see narrow your search, expand your
+search, and related terms on the right side. Both then visit the three websites that consistently
+appear in top search and PPC positions. How can Sherwood and Johanna differentiate themselves?
+Use more credibility indicators, media, academia, associations, and testimonials.
+Create a better guarantee? Offer better selection? This applies to Sherwood and not Johanna.
+Free or faster shipping? Sherwood notices that the shirts are often hard to find on the competitive
+sites, all of which feature dozens of products, and the shirts are either made in the United States,
+inauthentic, or shipped from France. Customers must wait two to four weeks. Johanna cannot find
+a yoga for rock climbing DVD, so she is starting from a blank slate.
+Two, Sherwood and Johanna now need to create a one page 300 to 600 words testimonial rich
+advertisement that emphasizes their differentiators and product benefits using text and either personal
+photos or stock photos from stock photo websites. Both have spent two weeks collecting advertisements
+that have prompted them to make purchases or that have caught their attention in print or online.
+These will serve as models. How did I come up with the most successful BodyQuick headline,
+the fastest way to increase power and speed guaranteed? I borrowed it from the longest
+running and thus most profitable Rosetta Stone headline, the fastest way to learn a language
+guaranteed. Reinventing the wheel is expensive. Become an astute observer of what is already
+working and adapt it. Johanna asks her clients for testimonials and Sherwood lets his friends
+try on the shirts to get several for his page. Sherwood also asks the manufacturer for photos
+and advertising samples. See www.pxmethod.com for a good example of how I have created a test page
+using testimonials from seminar attendees. Free how-to seminars as recommended in the
+expert builder are ideal for identifying popular selling points and securing testimonials.
+Testing the advertisement. Sherwood and Johanna now need to test actual customer response to their
+advertisements. Sherwood first tests his concept with a 48-hour eBay auction that includes his
+advertising text. He sets the reserve, the lowest price he'll accept, for one shirt at $50 and
+cancels the auction last minute to avoid legal issues since he doesn't have product to ship.
+He has received bids up to $75 and decides to move to the next phase of testing.
+Johanna doesn't feel comfortable with the apparent deception and skips this preliminary testing.
+Sherwood's cost less than $5. Both find a low-cost provider such as www.bluehost.com
+to host their soon-to-be one-page site. Bluehost includes one domain name with the hosting.
+Sherwood chooses www.shirtsfromfrance.com and Johanna chooses www.yogaclimber.com.
+For additional domain names Johanna uses the cheap domain registrar www.domainsinseconds.com.
+Cost to both less than $40. Sherwood uses Dreamweaver to create his one-page site
+advertisement and then creates two additional pages. If someone clicks on the purchase button
+at the bottom of the first page it takes them to a second page with pricing shipping and handling
+and basic contact fields to fill out including email and phone. Sherwood includes shipping
+and handling prior to the final order page so that people don't finalize the order just to
+confirm total pricing. He wants his orders to reflect real orders and not price checkers.
+If the visitor presses continue with order it takes them to a page that states
+Unfortunately we are currently on back order but we'll contact you as soon as we have product in
+stock. Thank you for your patience. This structure allows him to test the first page ad and his
+pricing separately. If someone gets to the last page it is considered an order. Johanna is not
+comfortable with dry testing as Sherwood's approach is known even though it is legal if the billing
+data isn't captured. She instead hires a designer from www.elance.com for $100 to create a single
+web page with the content of her one-page ad and an email sign-up for a free top 10 tips list for
+using yoga for rock climbing. She will consider 60 percent of the sign-ups as hypothetical orders.
+Cost to both less than $150. Both set up simple google ad words campaigns with 50 to 100 search
+terms to simultaneously test headlines while driving traffic to their pages. Their daily
+budget limits are set at $50 per day. At this segue into PPC testing I recommend you first
+visit www.google.com forward slash online business and then follow along by creating your own account
+which should take about 10 minutes. It would be a waste of rainforests to use 10 pages to explain
+terms that can be understood at a glance online. Sherwood and Johanna decide on the best search
+terms by using the search term suggestion tools mentioned earlier. Both aim for specific terms
+when possible. French sailor shirts versus French shirts. Yoga for sports versus yoga for higher
+conversion rates. The percentage of visitors that purchase and lower cost per click CPC. They aim
+also for second through fourth positioning but no more than 20 cents CPC. Sherwood will use
+Google's free analytical tools to track orders and page abandonment rates. What percentage of
+visitors leave the site from which pages. Johanna will use www.auber.com to track email sign-ups.
+Since both Sherwood and Johanna are unsure of how to implement these tools they hire freelance web
+programmers to set them up. Cost to both $100. Both Johanna and Sherwood design AdWords ads
+that focus on their differentiators. Each Google AdWords ad consists of a headline and then two
+lines of description neither of which can exceed 35 characters. In Sherwood's case he creates five
+groups of 10 search terms each. The following are two of his ads. Sailor shirts from France. French
+quality ship from US. Lifetime guarantee www.shirtsfromfrance.com. Real French sailor
+shirts. French quality ship from US. Lifetime guarantee www.shirtsfromfrance.com. Johanna
+creates the same five groups of 10 terms each and tests a number of ads including these. Yoga
+for rock climbers DVD used by 512 climbers get flexible fast www.yogaclimber.com.
+Yoga for rock climbers DVD used by 512 climbers get flexible fast www.yogaforsports.com.
+Notice that these ads can be used to test not just headlines but guarantees product names and
+domain names. It's as simple as creating several ads rotated automatically by Google that are
+identical except for the one variable to be tested. How do you think I determined the best
+title for this book? Both Sherwood and Johanna disable the feature on Google that serves only
+the best performing ad. This is necessary to later compare the click through rates from each
+and combine the best elements headline domain name and body text into a final ad. Last but not
+least ensure that the ads don't trick prospects into visiting the site. The product offer should
+be clear. Our goal is qualified traffic so we do not want to offer something free or otherwise
+attract window shoppers or the curious who are unlikely to buy. Cost to both $50 or less per
+day times five days equals $250. Keeping in mind that 100 specific terms at 10 cents per click
+will perform better than 10 broad terms at one dollar per click the more you spend and thus the
+more traffic you drive the more statistically valid the results will be. If budget permits
+increase the number of related terms and daily expenditure so that the entire PPC test costs
+500 to 1000 dollars. Investing or divesting five days later it's time to tally the results.
+What can we consider a good click through and conversion rate? This is where the math
+can be deceiving. If we're selling a $10,000 abominable snowman suit with an 80% profit margin
+we obviously need a much lower conversion rate than someone who is selling a $50 DVD with a 70%
+profit margin. For sophisticated tools and free spreadsheets that do all sorts of calculations for
+you visit www.4hourworkweek.com. Johanna and Sherwood decide to keep it simple at this stage.
+How much did they spend on PPC ads and how much did they sell? Johanna has done well. The traffic
+wasn't enough to make the test stand up to statistical scrutiny but she spent about $200
+on PPC and got 14 sign-ups for a free 10 tip report. If she assumes 60% would purchase that
+means 8.4 people times $75 profit per DVD equals $630 in hypothetical total profit. This is also
+not taking into account the potential lifetime value of each customer. The results of her small
+test are no guarantee of future success but the indications are positive enough that she decides
+to set up a Yahoo store for $99 per month and a small per transaction fee. Her credit isn't
+excellent so she will opt to use www.paypal.com to accept credit cards online instead of approaching
+her bank for a merchant account. This is a checking account for receiving credit card payments.
+She emails the 10 tip report to those who signed up and asks for their feedback and recommendations
+for content on the DVD. Ten days later she has a first attempt at the DVD ready to ship
+and her store is online. Her sales to the original sign-ups cover costs of productions and she is
+soon selling a respectable 10 DVDs per week $750 profit via Google AdWords and Overture,
+the second largest PPC engine. She plans to test print advertising in niche magazines and now needs
+to create an automation architecture to remove herself from the equation. Sherwood didn't fare
+as well but still sees potential. He spent $150 on PPC and sold three shirts for a hypothetical $225
+in profit. He had more than enough traffic but the bulk of visitors left the site on the pricing page.
+Rather than drop pricing he decides to test a two times money back guarantee on the pricing page
+which will enable customers to get a $200 refund if the $100 shirts aren't the most
+comfortable they've ever owned. He retests and sells seven shirts for $525 in profit.
+Based on these results he sets up a merchant account through his bank to process credit cards,
+orders a dozen shirts from France and sells them all over the following 10 days. This gives him
+enough profit to buy a small display ad at 50% off asking for a first time advertiser discount
+and then citing a competing magazine to get another 20% off in a local weekly art magazine
+in which he calls the shirt Jackson Pollock shirts. He orders two dozen more shirts with net
+30 payment terms and puts a toll free number, set this up using services detailed at the end
+of this chapter in the next, in the print ad that forwards to his cell phone. He does this instead
+of using a website for two reasons. One, he wants to determine the most common questions for his
+FAQ online and two, he wants to test an offer of $100 for one shirt, $75 in profit or buy two,
+get one free, $200 minus $75 equals $125 profit. He sells all 24 shirts in the first five days
+the magazine runs, most through the special offer, success. He redesigns the print ad putting answers
+to common questions in the text to cut down on calls for information and decides to negotiate
+a longer term ad agreement with the magazine. He sends his sales rep a check for four issues
+at 30% of their published rates. He calls to confirm that they received his check via FedEx
+and with check in hand and deadlines looming, they don't refuse. Sherwood wants to go to Berlin
+during a two week break from his job which he is now considering quitting. How can he roll out
+his success and escape his own company? He needs to build the architecture and get his mobile MBA.
+That's where the next chapter comes in. New Rich Revisited. How Doug did it. Remember Doug from
+prosoundeffects.com? How did he test the idea and go from zero dollars to ten thousand dollars per
+month in the process? He followed these steps. One, market selection. He chose music and television
+producers as his market because he is a musician himself and has used these products. Two, product
+brainstorm. He chose the most popular products available for resale from the largest manufacturers
+of sound libraries and arranged a wholesale purchase and drop ship agreement with them.
+Many of these libraries cost well above three hundred dollars up to seventy five hundred dollars
+and this is precisely why he needs to answer more customer service questions than someone with a
+lower priced product of fifty to two hundred dollars. Three, micro testing. He auctioned the
+products on eBay to test demand and the highest possible pricing before purchasing inventory.
+He ordered product only when people placed orders from him and product shipped immediately from the
+manufacturer's warehouses. Based on this demand confirmed on eBay, Doug created a Yahoo store with
+these products and began testing Google AdWords and other PPC search engines. Four, rollout and
+automation. Following this testing and upon generating sufficient cash flow, Doug began
+experimenting with print advertising in trade magazines. Simultaneously he streamlined and
+outsourced operations to reduce his time requirements from two hours per day to two hours per week.
+Comfort challenge. Rejecting first offers and walking away. Three days. Before performing this
+exercise, if possible, read the bonus chapter how to get seven hundred thousand dollars of
+advertising for ten thousand dollars on our companion site and then set aside two hours on
+a consecutive Saturday, Sunday and Monday. On Saturday and Sunday, go to a farmer's market or
+other outdoor event where goods are sold. If this isn't possible, go to small independent retailers,
+not chains or mass retail. Set a budget of one hundred dollars for your negotiating tuition and
+look for items to purchase the total at least one hundred fifty dollars. Your job is to get
+the sellers down to a total of one hundred dollars or less for the lot. It is better to practice on
+many cheap items rather than a few big items. Be sure to reply to their first offer with what
+type of discount can you offer to let them negotiate against themselves. Negotiate near
+closing time. Choose your objective price bracket and make a firm offer with cash in hand for that
+amount. See the online bonus chapter on www.4hourworkweek.com to understand all of these terms
+in context. Practice walking away if your objective price isn't met. On Monday, call two magazines,
+expect the first to be awkward and use the script on the companion site to negotiate
+minus the last firm offer. Get them as low as possible and then call them back later to
+indicate that your proposal was refused by upper management or otherwise vetoed.
+This is the negotiating equivalent of paper trading. Paper trading refers to setting an
+imaginary budget, purchasing stocks, writing their current values on a piece of paper,
+and then tracking their performance over time to see how your investment would have done
+had it been for real. It is a no-risk method for honing investment skills before putting
+skin in the game. Get used to refusing offers and countering in person and, most importantly,
+on the phone. Tools and Tricks. Sample Muse Test Page. The PX Method. www.pxmethod.com.
+This sales template was used to determine the viability of a speed reading product,
+which tested successfully. Notice how testimonials, credibility indicators,
+and risk reversal guarantees are used and how the pricing is put on a separate page
+so it can be isolated as a testing variable. Use this as a reference. It is a simple and
+effective model that can be copied. Introduction to pay-per-click PPC advertising.
+Google AdWords tutorial. www.google.com forward slash online business. Market sizing and keyword
+suggestion tools. Overture. http colon forward slash forward slash inventory dot overture dot com
+forward slash d forward slash search inventory forward slash suggestion. Google HTTPS colon
+forward slash forward slash adwords dot google dot com forward slash select forward slash main
+question mark cmd equal keyword sandbox word tracker www dot word tracker dot com
+ask dot com www dot ask dot com type in one term and see alternative terms to write
+brainstorm additional PPC search terms and determine the number of people who are
+searching for them low cost domain registration domains in seconds www.domainsinseconds.com
+i have close to 100 domains with this service joker www.joker.com inexpensive but dependable
+hosting services go daddy www.godaddy.com one and one www.oneandone.com bluehost www.bluehost.com
+rackspace www.rackspace.com known for dedicated and managed servers hosting.com www.hosting.com
+known for dedicated and managed servers shared hosting solutions where your site is hosted
+alongside other sites on a single server are so cheap that i recommend using two providers
+one is a primary and one is a backup put your site pages on each host and sign up with www.no-ip.com
+which can redirect traffic dns to the backup in five minutes instead of the usual 24 to 48 hours
+free and paid stock photos free stock photos www.freestockphotos.com one of many stock photo
+databases available on the web photos are available in categories ranging from animals to ancient
+ruins for both personal and commercial use getty images www.getty.com this is where the pros go
+stock photos and film of anything for a price i pay 150 to 400 dollars for most images i use
+in national print campaigns and the quality is outstanding email sign up tracking and scheduled
+auto responders aweber www.aweber.com end-to-end site solutions with payment processing
+yahoo store http colon forward slash forward slash smallbusiness.yahoo.com forward slash e-commerce
+866-781-9246 this is what doug used as little as 40 dollars per month with 1.5 percent per
+transaction 24 seven support is excellent ebay store http colon forward slash forward slash
+ebay.com forward slash storefronts forward slash start dot html prices range from 15 to 500 dollars
+per month plus ebay fees simple payment processing for testing pages paypal cart www.paypal.com see
+merchant accept credit card payments in minutes there are no monthly fees 1.9 to 2.9 percent
+and 30 cents us per transaction google checkout http colon forward slash forward slash check out
+dot google.com forward slash sell get 10 dollars in free processing for each one dollar spent on
+adwords 2 percent and 20 cents per transaction thereafter this checkout option requires that
+customers have a google id it is thus most useful as a supplement to one of the aforementioned
+payment solutions software for understanding web traffic web analytics google analytics
+www.google.com forward slash analytics click tracks www.clicktracks.com web trends www.webtrends.com
+how are people finding browsing and leaving your site how many prospective customers are being
+delivered by each ppc ad and which pages are most popular these programs tell you all this and more
+google is free for most low volume sites and better than a lot of paid software and the others
+cost 30 dollars and upward per month ab testing software offer matica www.offermatica.com
+vertster.com www.vertster.com optimost www.optimost.com
+testing is as you know the name of the game but testing all the variables can be confusing
+how do you know which combination of headlines text and images on your home page results in the
+most sales instead of using one version for a period and then alternating which is time consuming
+use software that serves up different versions of your home page to prospects at random
+and then does the math for you low cost toll free numbers toll free max www.tollfreemax.com
+877-888-8MAX toll free max allows you to have your own toll free number
+calls can be forwarded to any other numbers voicemail goes to your email address
+checking competitive site traffic alexa www.alexa.com see how much traffic your
+competition is getting and who is linking to them freelance designers and programmers
+elance www.elance.com 877-435-2623 craigslist www.craigslist.org
+11. Income Autopilot 3 MBA Management by Absence
+The factory of the future will have only two employees a man and a dog the man will be there
+to feed the dog the dog will be there to keep the man from touching the equipment
+Warren G. Bennis University of Southern California professor of business administration
+advisor to Ronald Reagan and John F. Kennedy most entrepreneurs don't start out with automation as
+a goal this leaves them open to mass confusion in a world where each business guru contradicts the
+next consider the following a company is stronger if it is bound by love rather than by fear if the
+employees come first then they're happy Herb Kelleher co-founder of Southwest Airlines look
+kitty I built this business by being a bastard I run it by being a bastard I'll always be a
+bastard and don't you ever try to change me Charles Revson founder of Revlon to a senior executive
+within his company hmm whom to follow if you are fast on your feet you'll notice that I just offered
+you an either or option the good news is that as usual there is a third option the contradictory
+advice you find in business books and elsewhere usually relates to managing employees how to
+handle the human element herb tells you to give them a hug revson tells you to kick them in the
+balls and I tell you to solve the problem by eliminating it all together remove the human
+element once you have a product that sells it's time to design a self-correcting business
+architecture that runs itself the remote control ceo the power of hiding ourselves from one another
+is mercifully given for men or wild beasts and would devour one another but for this protection
+henry ward beecher us abolitionist and clergyman proverbs from Plymouth pulpit
+rural pennsylvania in a 200 year old stone farmhouse a quiet experiment in 21st century
+leadership is proceeding exactly as planned steven mcdonnell is upstairs in his flip-flops
+looking at a spreadsheet on his computer his company has increased its annual revenue 30
+per year since it all began and he is able to spend more time with his three daughters
+than he ever thought possible the experiment as ceo of applegate farms he insists on spending
+just one day per week at the company headquarters in bridgewater new jersey he's not the only ceo
+who spends time at home of course there are hundreds who have heart attacks or nervous
+breakdowns and need time to recover but there is a huge difference mcdonnell has been doing it for
+more than 17 years rarer still he started doing it just six months after founding the company
+this intentional absence has enabled him to create a process driven instead of founder driven
+business limiting contact with managers forces the entrepreneur to develop operational rules
+that enable others to deal with problems themselves instead of calling for help this isn't just for
+small operations applegate farms sells more than 120 organic and natural meat products to high-end
+retailers and generates more than 35 million dollars in revenue per year it is all possible
+because mcdonnell started with the end in mind behind the scenes the muse architecture
+orders are nobody can see the great os not nobody not know how guardian of the emerald city gates
+the wizard of oz starting with the end in mind an organizational map of what the eventual business
+will look like is not new infamous deal maker wayne husinga copied the org chart of mcdonald's to
+turn blockbuster into a billion dollar behemoth and dozens of titans have done much the same
+in our case it's the end in mind that is different our goal isn't to create a business that is as
+large as possible but rather a business that bothers us as little as possible the architecture
+has to place us out of the information flow instead of putting us at the top of it i didn't
+get this right the first time i tried in 2003 i was interviewed in my home office for a documentary
+called as seen on tv we were interrupted every 20 to 30 seconds with beeping email notifications
+im pings and ringing phones i couldn't leave them unanswered because dozens of decisions depended
+on me if i didn't ensure the trains were running on time and put out the fires no one would
+splitting the pie outsourcer economics each outsourcer takes a piece of the revenue pie
+here is what the general profit loss might look like for a hypothetical 80 dollar product
+sold via phone and developed with the help of an expert who is paid a royalty i recommend
+calculating profit margins using higher than anticipated expenses this will account for
+unforeseen costs read screw-ups and miscellaneous fees such as monthly reports etc revenue product
+cost 80 shipping and handling 1295 total revenue 92 dollars 95 cents expenses product manufacturing
+10 dollars call center 83 cents per minute times average call time of four minutes
+three dollars 32 cents shipping five dollars 80 cents fulfillment one dollar 85 per package
+plus 50 cents for boxes and packing two dollars 35 cents credit card processing
+2.75 percent of 92 dollars 95 cents two dollars 56 cents returns plus declined cards
+six percent of 92 dollars 95 cents five dollars 58 cents royalties five percent of wholesale price
+of 48 dollars 80 dollars times point six two dollars 40 cents total expenses 32 dollars one
+profit revenue minus expenses 60 dollars 94 cents how do you factor in advertising cost
+if a one thousand dollar ad or one thousand dollars in ppc produces 50 sales my advertising
+cost per order cpo is 20 dollars this makes the actual per unit profit 40 dollars 94 cents
+i set a new goal after that experience and when i was interviewed six months later as a follow-up
+one change was more pronounced than all others silence i had redesigned the business from the
+ground up so that i had no phone calls to answer and no email to respond to i'm often asked how
+big my company is how many people i employ full time the answer is one most people lose interest
+at that point if someone were to ask me how many people run brain quicken llc on the other hand
+the answer is different between 200 and 300 i am the ghost in the machine from advertisements print
+in this example to a cash deposit in my bank account the diagram on the back of this audiobook
+is what a simplified version of my architecture looks like including some sample costs if you
+have developed a product based on the guidelines in the last two chapters it will plug into this
+structure hand in glove where am i in the diagram nowhere i am not a toll booth through which
+anything needs to pass i am more like a police officer on the side of the road who can step in
+if need be and i use detailed reports from outsourcers to ensure the cogs are moving as
+intended i check reports from fulfillment each monday and monthly reports from the same the first
+of each month the latter reports include orders received from the call center which i can compare
+to the call center bills to gauge profit otherwise i just check bank accounts online on the first and
+15th of each month to look for odd deductions if i find something one email will fix it and if not
+it's back to kendo painting hiking or whatever i happen to be doing at the time
+removing yourself from the equation when and how the system is the solution at and t
+the diagram on the back of this audiobook should be your rough blueprint for designing a self
+sustaining virtual architecture there could be differences more or fewer elements but the main
+principles are the same one contract outsourcing companies that specialize in one function versus
+freelancers whenever possible so that if someone is fired quits or doesn't perform you can replace
+them without interrupting your business hire trained groups of people who can provide detailed
+reporting and replace one another as needed to ensure that all outsourcers are willing to
+communicate among themselves to solve problems and give them written permission to make most
+inexpensive decisions without consulting you first i started at less than one hundred dollars and
+moved to four hundred dollars after two months how do you get there it helps to look at where
+entrepreneurs typically lose their momentum and stall permanently most entrepreneurs begin
+with the cheapest tools available bootstrapping and doing things themselves to get up and running
+with little cash this isn't the problem in fact it's necessary so that the entrepreneurs can train
+outsourcers later the problem is that these same entrepreneurs don't know when and how to replace
+themselves or their homemade infrastructure with something more scalable by scalable i mean a
+business architecture that can handle 10 000 orders per week as easily as it can handle 10 orders per
+week doing this requires minimizing your decision-making responsibilities which achieves
+our goal of time freedom while setting the stage for doubling and tripling income with no change
+in hours worked call the companies at the end of the chapter to research costs plan and budget
+accordingly to upgrade infrastructure at the following milestones which i measure in units
+of product shipped phase one zero to 50 total units of product shipped do it all yourself put
+your phone number on the site for both general questions and order taking this is important in
+the beginning and take customer calls to determine common questions that you will answer later in an
+online fact this fact will also be the main material for training phone operators in developing sales
+scripts is ppc an offline advertisement or your website too vague or misleading thus attracting
+unqualified and time consuming consumers if so change them to answer common questions
+and make the product benefits including what it isn't or doesn't do clearer answer all email and
+save your responses in one folder called customer service questions cc yourself on responses and
+put the nature of the customers questions in the subject lines for future indexing personally pack
+and ship all products to determine the cheapest options for both investigate opening a merchant
+account from your local small bank easier to get than with a larger bank for later outsourced credit
+card processing phase two 10 units shipped per week add the extensive fact to your website and
+continue to add answers to common questions as received find local fulfillment companies in the
+yellow pages under fulfillment services or mailing services if you cannot find one there or at
+www.mfsanet.org call local printers and ask them for recommendations narrow the field to those
+often the smallest who will agree not to charge you setup fees and monthly minimums if this isn't
+possible ask for at least 50 off both and then request that the setup fee be applied as an
+advance against shipping or their other fees limit the candidates further to those who can
+respond to order status email ideal or phone calls from customers the email from your customer
+service folder will be provided as copy and paste responses especially those related to
+order status and refund requests sample email responses for fulfillment purposes can be found
+at www.4hourworkweek.com to lower or eliminate miscellaneous fees explain that you are a startup
+and that your budget is small tell them you need the cash for advertising that will drive more
+shipments if needed mention the competitive companies that you are considering and pit them
+against one another using lower pricing or concessions from one to get larger discounts
+and bonuses from the other before making your final selection ask for at least three client
+references and use the following to elicit the negatives i understand they're good but everyone
+has weaknesses if you had to point out where you've had some issues and what they're not the best at
+what would you say can you please describe an incident or a disagreement i expect these
+with all companies so it's no big deal and it's confidential of course ask for net 30 terms
+payment for services 30 days after they're rendered after one month of prompt payment
+for their services it's easier to negotiate all of the above points with smaller operations that
+need the business have your contract manufacturer ship product directly to the fulfillment house
+once you have decided on one and put the fulfillment house's email you can use an
+email address at your domain and forward it or phone number on the online thank you page
+for order status questions phase three 20 units shipped per week now you will have the cash flow
+to afford the setup fees and the monthly minimums that bigger more sophisticated outsources will
+ask for call the end-to-end fulfillment houses that handle it all from order status to returns
+and refunds interview them about costs and ask them for referrals to call centers and credit
+card processors they've collaborated with for file transfers and problem solving don't assemble
+an architecture of strangers there will be programming costs and mistakes both of which
+are expensive set up an account with the credit card processor first for which you will need your
+own merchant account this is critical as the fulfillment house can only handle refunds and
+declined cards for transactions they process themselves through an outsourced credit card
+processor optionally set up an account with one of the call centers your new fulfillment center
+recommends these will often have toll-free numbers you can use instead of purchasing your own look at
+the percentage split of online to phone orders during testing and consider carefully if the
+extra revenue from the latter is worth the hassle it often isn't those who call to order will
+generally order online if given no other option before signing on with the call center get several
+800 numbers they answer for current clients and make test calls asking difficult product related
+questions engaging sales abilities call each number at least three times morning afternoon
+and evening and note the make or break factor wait time the phone should be answered within
+three to four rings and if you are put on hold the shorter the wait the better more than 15
+seconds will result in too many abandoned calls and waste advertising dollars the art of undecision
+fewer options equals more revenue companies go out of business when they make the wrong decisions or
+just as important make too many decisions the latter creates complexity mike maples co-founder
+of motive communications ipo to 260 million dollar market cap founding executive of tivoli
+sold to ibm for 750 million dollars and investor in companies such as dig.com
+joseph sugarman is the marketing genius behind dozens of direct response and retail successes
+including the blue blocker sunglasses phenomenon prior to his string of home runs on television
+he sold 20 000 pairs of blue blockers within 15 minutes of his first qvc appearance his domain
+was print media where he made millions and built an empire called js and a group he was once
+recruited to design an advertisement for a manufacturer's watch line the manufacturer
+wanted to feature nine different watches in the ad and joe recommended featuring just one the
+client insisted and joe offered to do both and test them in the same issue of the wall street
+journal the result the one watch offer outsold the nine watch offer six to one henry ford once
+said referring to his model t the best-selling car of all time the customer can have any color
+he wants so long as it's black he understood something that business people seem to have
+forgotten serving the customer customer service is not becoming a personal concierge and catering to
+their every whim and want customer service is providing an excellent product at an acceptable
+price and solving legitimate problems lost packages replacements refunds etc in the fastest
+manner possible that's it the more options you offer the customer the more indecision you create
+and the fewer orders you receive it is a disservice all around furthermore the more options you offer
+the customer the more manufacturing and customer service burden you create for yourself the art
+of undecision refers to minimizing the number of decisions your customers can or need to make
+here are a few methods that i and other nr have used to reduce service overhead 20 to 80 percent
+one offer one or two purchase options basic and premium for example and no more two do not offer
+multiple shipping options offer one fast method instead and charge a premium three do not offer
+overnight or expedited shipping it is possible to refer them to a reseller who does as is true
+with all of these points as these shipping methods will produce hundreds of anxious phone calls
+four eliminate phone orders completely and direct all prospects to online ordering this
+seems outrageous until you realize that success stories like amazon.com have depended on it as a
+fundamental cost saver to survive and thrive five do not offer international shipments spending
+10 minutes per order filling out customs forms and then dealing with customer complaints when
+the product costs 20 to 100 percent more with tariffs and duties is about as fun as headbutting
+a curb it's about as profitable too some of these policies hint at what is perhaps the biggest
+time saver of all customer filtering not all customers are created equal once you reach
+phase three and have some cash flow it's time to reevaluate your customers and thin the herd
+there are good and bad versions of all things good food bad food good movies bad movies good
+sex bad sex and yes good customers and bad customers decide now to do business with the
+former and avoid the latter i recommend looking at the customer as an equal trading partner and not
+as an infallible blessing of a human being to be pleased at all costs if you offer an excellent
+product at an acceptable price it is an equal trade and not a begging session between subordinate
+you and superior customer be professional but never kowtow to unreasonable people
+instead of dealing with problem customers i recommend you prevent them from ordering in the
+first place i know dozens of nr who don't accept western union or checks as payment some would
+respond to this with you're giving up 10 to 15 percent of your sales the nr in turn would say
+i am but i'm also avoiding the 10 to 15 percent of the customers who create 40 percent of the
+expenses and eat 40 percent of my time it's classic 80 20 those who spend the least and ask for the
+most before ordering will do the same after the sale cutting them out is both a good lifestyle
+decision and a good financial decision low profit and high maintenance customers like to call
+operators and spend up to 30 minutes on the phone asking questions that are unimportant or answered
+online costing in my case 24 dollars 90 cents 30 times 83 cents per 30 minute incident eliminating
+the miniscule profit they contribute in the first place those who spend the most complain the least
+in addition to our premium 50 to 200 dollar pricing here are a few additional policies
+that attract the high profit and low maintenance customers we want one do not accept payment via
+western union checks or money order two raise wholesale minimums to 12 to 100 units and require
+a tax id number to qualify resellers who are real business people and not time intensive novices
+don't run a personal business school three refer all potential resellers to an online order form
+that must be printed filled out and faxed in never negotiate pricing or approve lower pricing
+for higher volume orders cite company policy due to having had problems in the past four offer low
+priced products a la mris no2 book instead of free products to capture contact information for
+follow-up sales offering something for free is the best way to attract time eaters and spend
+money on those unwilling to return the favor five offer a lose win guarantee instead of free trials
+six do not accept orders from common mail fraud countries such as nigeria make your customer base
+an exclusive club and treat the members well once they've been accepted the lose win guarantee
+how to sell anything to anyone if you want a guarantee buy a toaster clint eastwood the 30
+day money back guarantee is dead it just doesn't have the pizzazz it once did if a product doesn't
+work i've been lied to and will have to spend an afternoon at the post office to return it
+this costs me more than just the price i paid for the product both in time and actual postage
+risk elimination just isn't enough this is where we enter the neglected realm of lose win guarantees
+and risk reversal the nr use what most consider an afterthought the guarantee as a cornerstone
+sales tool the nr aim to make it profitable for the customer even if the product fails lose win
+guarantees not only remove risk for the consumer but put the company at financial risk here are
+a few examples of putting your money where your mouth is delivered in 30 minutes or less or it's
+free domino's pizza built its business on this guarantee we're so confident that you'll like
+cialis if you don't we'll pay for the brand of your choice the cialis promise program offers a
+free sample of cialis and then offers to pay for competing products if cialis doesn't live up to
+the hype if your car is stolen we'll pay 500 of your insurance deductible this guarantee helped
+the club become the number one selling mechanical automobile anti-theft device in the world
+110 guaranteed to work within 60 minutes of the first dose this was for body quick and a first
+among sports supplements i offered to not only refund customers the price of the product if it
+didn't work within 60 minutes of the first dose but also to send them a check for 10 percent more
+the lose-win guarantee might seem like a big risk especially when someone can abuse it for profit
+like in the body quick example but it isn't if your product delivers most people are honest
+let's look at some actual numbers returns for body quick even with a 60-day return period and
+partially because of it are less than three percent in an industry in which the average is 12 to 15
+is 12 to 15 percent for a normal 30-day 100 money back guarantee sales increased more than
+300 percent within four weeks of introducing the 110 percent guarantee and returns decreased
+overall for the benefit of the customer and to capitalize on universal laziness me included
+provide as much time as possible to consider or forget the product ginsu knives offered a
+50-year guarantee can you offer a 60 90 or even 365 day guarantee gauge average return percentages
+with a 30 or 60 day guarantee first for budgeting calculations and cash flow projections and then
+extend it johanna adopted this lose-win offer and came up with an increased sports specific
+flexibility 40 percent in two weeks or return it for a full refund including shipping and keep the
+20-minute bonus dvd as our gift sure would found his guarantee as well if these shirts are not
+the most comfortable you've ever worn return them and get two times your purchase price back
+each shirt is also guaranteed for life if it gets threadbare send it back and we'll replace it free
+of charge both of them increased sales more than 200 percent in the first two months return
+percentage remained the same for johanna and increased 50 percent for sure would from two
+to three percent disaster far from it instead of selling 50 and getting one back with a 100 percent
+guarantee 50 times 100 minus 100 equals four thousand nine hundred dollars in revenue he sold
+200 and got six back with the 200 percent guarantee 200 times 100 minus six times 200
+equals $18,800 in revenue i'll take the latter lose win is the new win win stand out and reap the
+rewards little blue chip how to look fortune 500 in 45 minutes are you tired of sand being
+kicked in your face i promise you new muscles in days charles atlas strongman who sold more
+than 30 million dollars worth of dynamic tension muscle courses through comic books
+if approaching large resellers or potential partners small company size will be an obstacle
+this discrimination is often as insurmountable as it is unfounded fortunately a few simple steps
+can dramatically upgrade your budding fortune 500 image and take your muse from coffee shop
+to boardroom in 45 minutes or less one don't be the ceo or founder being the ceo or founder screams
+startup give yourself the mid-level title of vice president director or something similar that can
+be added to depending on the occasion director of sales director of business management etc for
+negotiation purposes as well remember that it is best not to appear to be the ultimate decision
+maker to put multiple email and phone contacts on the website put various email addresses on
+the contact us page for different departments such as human resources sales general inquiries
+wholesale distribution media pr investors web comments order status and so on in the beginning
+these will all forward to your email address in phase three most will forward to the appropriate
+outsourcers multiple toll free numbers can be used in the same fashion three set up an
+interactive voice response ivr remote receptionist it is possible to sound like a blue chip for less
+than 30 dollars in fewer than 10 minutes on a site such as www.angel.com which boasts clients
+such as Reebok and Kellogg's it is possible to set up an 800 number that greets callers with a voice
+prompt such as thank you for calling business name please say the name of the person or department
+you would like to reach or just hold on for a list of options upon speaking your name or selecting
+the appropriate department the caller is forwarded to your preferred phone or the appropriate
+outsourcer with on hold music and all four do not provide home addresses do not use your home address
+or you will get visitors prior to securing an end-to-end fulfillment house that can handle
+checks and money orders if you decide to accept them use the post office box but leave out the
+po box and include the street address of the post office itself thus po box 555 nowhere us
+11936 becomes sweet 555 1234 downtown avenue us 11936 go forth and project professionalism with
+a well-designed image perceived size does matter comfort challenge relax in public two days this is
+the last comfort challenge placed prior to the chapter that tackles the most uncomfortable
+turning point for most office dwellers negotiating remote work agreements this challenge is intended
+to be fun while showing in no uncertain terms that the rules most follow are nothing more than
+social conventions there are no legal boundaries stopping you from creating an ideal life or just
+being self-entertained and causing mass confusion so relaxing in public sounds easy right i'm somewhat
+famous for relaxing in style to get a laugh out of friends here is the deal and i don't care if
+you're male or female 20 or 60 mongolian or martian i call the following a timeout
+once per day for two days simply lie down in the middle of a crowded public place at some point
+lunchtime is ideal it can be a well-trafficked sidewalk the middle of a popular starbucks or
+a popular bar there is no real technique involved just lie down and remain silent on the ground for
+about 10 seconds and then get up and continue on with whatever you were doing before i used to do
+this at nightclubs to clear space for break dancing circles no one responded to pleading
+but going catatonic on the ground did the trick don't explain it at all if someone asks you about
+it after the fact he or she will be too confused to ask you while you're doing it for 10 seconds
+just respond i just felt like lying down for a second the less you say the funnier and more
+gratifying this will be do it on solo missions for the first two days and then feel free to do it
+when with a group of friends it's a riot it isn't enough to think outside the box thinking is
+the box thinking is passive get used to acting outside the box tools and tricks looking huge
+virtual receptionist and ivr angel www.angel.com 888-692-6435 get an 800 number with professional
+voice menu voice recognition departments extensions etc in five minutes incredible
+ring central www.ringcentral.com 888-898-4591 offers toll free numbers call screening and forwarding
+voicemail fax send and receive and message alerts all online cd dvd duplication printing and product
+packaging avc corporation www.avccorp.com 310-533-5811 sfvideo www.sfvideo.com 800-545-5865
+local fulfillment fewer than 20 units shipped per week mailing fulfillment service association
+www.mfsanet.org 800-333-6272 end to end fulfillment companies more than 20 units
+shipped per week 500 plus setup motivational fulfillment www.mfpsinc.com 909-517-2200
+the secret backend infrastructure to campaigns from hbo pbs comic relief body by jake and more
+molten fulfillment www.moltenfulfillment.com 818-997-1800 200 000 square foot facility that
+offers real-time online inventory reports national fulfillment www.nationalfulfillment.com
+800-449-0016 located in central tennessee to minimize ship times to all domestic locations
+order taking call centers per minute charges these call centers are known for being efficient
+order takers in other words if you give the product price in an advertisement hard offer
+are offering free information lead generation or don't need trained salespeople who can overcome
+objections these are good options west teleservices www.west.com 800-232-0900
+employs 29 000 worldwide and processes billions of minutes per year all the high volume and low
+price players use them live ops www.liveops.com 800-411-4700 this pioneer in home-based reps
+often permits lower per minute rates converges www.converges.com 888-284-9900 closer call centers
+per minute and or per sale commissions these call centers are more appropriately called
+sales centers operators are commissioned and trained closers whose sole goal is to convert
+callers to buyers these calls are in response to call for information trial sample ads that
+don't feature a price soft offers these are the pros i work with but expect higher costs
+impulse www.impulseresponse.com 800-841-9000 provides everything to manage your campaign
+from script writers to consultants to in-house trainers excellent reputation
+protocol marketing www.protocolmarketing.com 800-677-2001 one of the classic sales oriented
+call centers i've used them for years triton technology www.tritontechnology.com 800-704-7538
+commission only sales center known for incredible closing abilities see the movie boiler room and
+alec baldwin's character in glengarry glen ross don't call unless your product sells for at least
+100 credit card processors merchant account through your bank necessary these companies
+unlike options in the last chapter specialize in not only processing credit cards but interacting
+with fulfillment on your behalf removing you from the flow chart trans first payment processing
+www.transfirst.com 800-745-2659 chase payment tech www.paymentech.com 800-824-4313
+trust commerce www.trustcommerce.com 949-387-3747 affiliate program software
+my affiliate program www.myaffiliateprogram.com 888-224-6565 discount media buying agencies
+if you go to a magazine radio station or tv channel and pay rate card the retail pricing
+first given you will never make it big save a lot of headache and expense consider using ad
+agencies that negotiate discounts of up to 90 percent in their chosen media manhattan media print
+www.manhmedia.com 212-808-4077 great agency with fast turnaround i've used them since the beginning
+novice media print www.noviceprintmedia.com 612-874-3000 has established relationships
+with over 1400 magazines and newspaper publishers and offers an average of 80 percent off of rate
+card clients include sharper image and office depot mercury media tv www.mercurymedia.com
+the largest private dr media agency in the united states they specialize in tv but can also handle
+radio and print they offer full tracking and reporting to determine roi revshare tv www.revshare.com
+310-451-2900 pay for results not time is their motto revshare allows you to split order profits
+with tv stations instead of paying for time upfront this is known as per inquiry or pi in tv
+and other offline media marketing architects radio www.marketingarchitects.com 800-700-7726
+the de facto leaders in radio dr but a bit on the expensive side almost all of the most successful
+dr products carlton sheets no money down tony robbins etc have used them radio direct response
+radio www.radio direct.com 610-892-7300 mark lipsky has put together a great firm with clients
+ranging from small direct marketers to travel channel and wells fargo online marketing and
+research firms ppc campaign management etc starting small find a local individual to help
+sempo www.sempo.org see the member directory 781-876-8866 excellent mid-size firms clicks to
+customers www.clicks2customers.com working planet www.workingplanet.com 401-709-3123
+the hard-hitting pros small campaigns start at a few thousand dollars marketing experiments
+www.marketingexperiments.com this is my team did it www.did-it.com 800-932-7761
+pepper jams search www.pepperjamssearch.com 877-796-5700 i prospect www.iprospect.com
+617-923-7000 full service infomercial producers these are the companies that made orec direct
+nutra system nordic track and hooked on phonics household names the first has an excellent dr tv
+glossary and both sites offer excellent resources don't call unless you can budget at least fifteen
+thousand dollars for a short-form commercial or more than fifty thousand dollars for a long-form
+infomercial hawthorne direct www.hawthornedirect.com 641-472-3800 script to screen www.scripttoscreen.com
+714-558-3971 retail and international product distribution want to get your product on the
+shelves of walmart costco nordstrom or the leading department store in japan sometimes it pays to
+have experts with relationships get you there bj direct international www.bjgd.com 949-753-1111
+celebrity brokers want a celebrity to endorse your product or be a spokesperson it can cost
+a lot less than you think if you do it right i know of one clothing endorsement deal with the
+best pitcher in major league baseball that costs just twenty thousand dollars per year
+here are the brokers who can make it happen celeb brokers www.celebbrokers.com
+310-268-1476 president jack king was the person who first turned me on to this fascinating world
+he knows it all inside and out celebrity endorsement network www.celebrityendorsement.com
+818-225-7090 celebrity finding contact any celebrity www.contactanycelebrity.com
+it is possible to do it yourself as i have done many times
+this online directory and its helpful staff will help you find any celebrity in the world
+www.celebrityendorsement.com
+this book is continued on disc 6

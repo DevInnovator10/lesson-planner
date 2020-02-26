@@ -1,0 +1,411 @@
+{% extends "base.html" %}
+{% load static %}
+{% load widget_tweaks %}
+{% block content %}
+
+<style>
+  :root {
+    /* Updated color scheme to match Lesson Planner */
+    --bg: #0f111a;
+    --card: #1c1e2e;
+    --text: #e0e0e0;
+    --highlight: #5e81f4;
+    --shadow: rgba(94, 129, 244, 0.15);
+    --sidebar-bg: #1a1c2d;
+    --user-msg-bg: #25283b;
+    --border-radius: 8px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://plus.unsplash.com/premium_photo-1683288662019-c92caea8276d");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  .container {
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem;
+  }
+
+  .upload-card {
+    background-color: var(--card);
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 10px var(--shadow);
+    padding: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .form-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: white;
+    font-size: 1.8rem;
+    text-shadow: 0 0 8px var(--highlight);
+  }
+
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .file-input-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #444;
+    border-radius: var(--border-radius);
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: var(--sidebar-bg);
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .file-input-wrapper:hover {
+    border-color: var(--highlight);
+    background-color: rgba(94, 129, 244, 0.1);
+  }
+
+  .file-input-wrapper input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .file-icon {
+    font-size: 2.5rem;
+    color: var(--highlight);
+    margin-bottom: 1rem;
+  }
+
+  .file-input-text {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    color: var(--text);
+  }
+
+  .file-input-subtext {
+    font-size: 0.85rem;
+    color: #aaa;
+  }
+
+  .selected-file {
+    display: none;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: var(--border-radius);
+    background-color: rgba(94, 129, 244, 0.1);
+    color: var(--highlight);
+    font-size: 0.9rem;
+  }
+
+  /* Customizing Select2 */
+  .select2-container--default .select2-selection--multiple {
+    background-color: var(--sidebar-bg);
+    border: 1px solid #444;
+    border-radius: var(--border-radius);
+    padding: 8px;
+    transition: all 0.3s ease;
+  }
+
+  /* Fix for search input text color */
+
+  .select2-container--default .select2-search--dropdown .select2-search__field,
+  .select2-container--default .select2-search--inline .select2-search__field {
+    color: white;
+
+    background-color: transparent;
+  }
+
+  .select2-container--default.select2-container--focus
+    .select2-selection--multiple {
+    border-color: var(--highlight);
+    box-shadow: 0 0 0 3px rgba(94, 129, 244, 0.25);
+  }
+
+  .select2-container--default .select2-results > .select2-results__options {
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: var(--sidebar-bg);
+    color: var(--text);
+  }
+
+  .select2-container .select2-selection--multiple {
+    min-height: 50px;
+  }
+
+  .select2-container--default
+    .select2-selection--multiple
+    .select2-selection__choice {
+    background-color: var(--highlight);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 12px;
+    margin: 4px;
+  }
+
+  .select2-container--default
+    .select2-selection--multiple
+    .select2-selection__choice__remove {
+    color: white;
+    margin-right: 6px;
+  }
+
+  .select2-container--default
+    .select2-selection--multiple
+    .select2-selection__choice__remove:hover {
+    color: #fff;
+    opacity: 0.8;
+  }
+
+  .select2-dropdown {
+    background-color: var(--sidebar-bg);
+    border-color: #444;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .select2-container--default .select2-results__option {
+    color: var(--text);
+  }
+
+  .select2-container--default
+    .select2-results__option--highlighted[aria-selected] {
+    background-color: var(--highlight);
+    color: white;
+  }
+
+  .select2-container--default .select2-results__option[aria-selected="true"] {
+    background-color: rgba(94, 129, 244, 0.3);
+  }
+
+  .select2-container--default
+    .select2-selection--multiple
+    .select2-selection__placeholder {
+    color: #aaa;
+  }
+
+  .btn-submit {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: var(--border-radius);
+    background-color: var(--highlight);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px var(--shadow);
+  }
+
+  .btn-submit:hover {
+    background-color: #4a6edc; /* Slightly darker highlight color */
+    transform: translateY(-1px);
+  }
+
+  .btn-submit:active {
+    transform: translateY(0);
+  }
+
+  .btn-icon {
+    margin-right: 8px;
+  }
+
+  /* Loading Spinner Overlay */
+  .loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+
+  .loading-overlay.active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .spinner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--card);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 20px rgba(94, 129, 244, 0.3);
+  }
+
+  .spinner {
+    width: 70px;
+    height: 70px;
+    border: 5px solid rgba(94, 129, 244, 0.3);
+    border-radius: 50%;
+    border-top-color: var(--highlight);
+    animation: spin 1s ease-in-out infinite;
+  }
+
+  .spinner-text {
+    color: var(--text);
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      padding: 1rem;
+    }
+
+    .upload-card {
+      padding: 1.5rem;
+    }
+  }
+</style>
+
+<div class="container">
+  <div class="upload-card">
+    <h2 class="form-title">✨ File Upload</h2>
+
+    <form id="upload-form" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+
+      <div class="form-group">
+        <label for="id_file">Choose a file:</label>
+        <div class="file-input-wrapper">
+          <i class="fas fa-cloud-upload-alt file-icon"></i>
+          <p class="file-input-text">Drag & drop a file or click to browse</p>
+          <p class="file-input-subtext">
+            Supported file types: Any file format
+          </p>
+          {{ form.file }}
+          <div class="selected-file" id="selected-file-name"></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="id_tags">Select Tags:</label>
+        {{ form.tags }}
+      </div>
+
+      <button type="submit" id="submit-btn" class="btn-submit">
+        <i class="fas fa-upload btn-icon"></i>Upload File
+      </button>
+    </form>
+  </div>
+</div>
+
+<div class="loading-overlay" id="loading-overlay">
+    <div class="spinner-container" id="spinner-container">
+      <div class="spinner" id="spinner"></div>
+      <div class="spinner-text" id="spinner-text">Processing your document...</div>
+    </div>
+  </div>
+  
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+{% block extra_scripts %}
+<script>
+  $(document).ready(function () {
+    $(".select2-multiple").select2({
+      width: "100%",
+      closeOnSelect: false,
+      allowClear: true,
+      placeholder: "Choose tags for your file...",
+      dropdownCssClass: "select2-dropdown-large",
+      theme: "default",
+    });
+
+    $('input[type="file"]').change(function () {
+      var fileName = $(this).val().split("\\").pop();
+      if (fileName) {
+        $("#selected-file-name")
+          .text("Selected file: " + fileName)
+          .show();
+      } else {
+        $("#selected-file-name").hide();
+      }
+    });
+
+    $("#id_tags").addClass("select2-multiple");
+
+    // Show loading spinner when form is submitted
+    $("#upload-form").on("submit", function () {
+        if ($('input[type="file"]').val()) {
+          $("#loading-overlay").addClass("active");
+          $("#spinner-text").text("Uploading your document...");
+          $("#submit-btn").prop("disabled", true);
+          $("#submit-btn").html('<i class="fas fa-spinner fa-spin btn-icon"></i>Uploading...');
+        }
+      });
+  
+      // After page reload, check if upload was successful
+      const params = new URLSearchParams(window.location.search);
+      if (params.get("success") === "1") {
+        $("#loading-overlay").addClass("active");
+        $("#spinner").hide();
+        $("#spinner-text").text("✅ Your document was successfully uploaded!");
+        setTimeout(() => {
+          $("#loading-overlay").removeClass("active");
+          $("#spinner").show();
+          $("#spinner-text").text("Processing your document...");
+          $("#submit-btn").prop("disabled", false);
+          $("#submit-btn").html('<i class="fas fa-upload btn-icon"></i>Upload File');
+          window.history.replaceState({}, document.title, window.location.pathname);
+        }, 2000);
+      }
+    });
+  
+</script>
+
+{% endblock %}
+{% endblock %}
