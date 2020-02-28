@@ -45,6 +45,7 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(max_length=255)),
                 ('file', models.FileField(upload_to='prompt_module/voice/')),
                 ('created_at', models.DateTimeField(auto_now_add=True)),
+
             ],
         ),
     ]
