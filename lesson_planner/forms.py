@@ -20,5 +20,6 @@ class CustomLoginForm(forms.Form):
         widget=forms.PasswordInput(attrs={
             'class': 'form-control',
             'style': 'color: black;',
+
         })
     )
