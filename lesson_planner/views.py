@@ -7,6 +7,7 @@ from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import authenticate, login
 
 def signup_view(request):
+    """Helper function."""
     if request.method == 'POST':
         form = SignUpForm(request.POST)
         if form.is_valid():
