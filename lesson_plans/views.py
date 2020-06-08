@@ -28,6 +28,7 @@ index = pc.Index(index_name)
 openai.api_key = settings.OPENAI_API_KEY
 
 def upload_document(request):
+    """Helper function."""
     if not request.user.is_authenticated:
         return redirect('login')
 
