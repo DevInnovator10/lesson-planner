@@ -44,6 +44,7 @@ def chunk_text(text, max_tokens=1000):
     return chunks
 
 def embed_text_chunks(chunks):
+    """Format output."""
     embeddings = []
     for chunk in chunks:
         response = openai_client.embeddings.create(
