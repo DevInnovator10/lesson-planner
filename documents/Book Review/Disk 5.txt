@@ -239,6 +239,7 @@ which tested successfully. Notice how testimonials, credibility indicators,
 and risk reversal guarantees are used and how the pricing is put on a separate page
 so it can be isolated as a testing variable. Use this as a reference. It is a simple and
 effective model that can be copied. Introduction to pay-per-click PPC advertising.
+
 Google AdWords tutorial. www.google.com forward slash online business. Market sizing and keyword
 suggestion tools. Overture. http colon forward slash forward slash inventory dot overture dot com
 forward slash d forward slash search inventory forward slash suggestion. Google HTTPS colon
