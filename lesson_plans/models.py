@@ -52,6 +52,7 @@ class UserProfile(models.Model):
 class Voice(models.Model):
     title = models.CharField(max_length=255)
     file = models.FileField(upload_to='prompt_module/voice/')
+
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
