@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+{% load static %}
+{% load widget_tweaks %}
+{% block content %}
+
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    body {
+        background: url('https://images.unsplash.com/photo-1616400619175-5beda3a17896') no-repeat center center fixed;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .glass-card {
+        background: rgba(255, 255, 255, 0.12);
+        backdrop-filter: blur(20px);
+        border-radius: 1rem;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+        padding: 3rem;
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    .form-control {
+        background-color: rgba(255, 255, 255, 0.9);
+        border: none;
+        border-radius: 0.5rem;
+        height: 48px;
+        font-size: 1rem;
+        box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    label {
+        font-weight: 600;
+        color: #fff;
+        margin-bottom: 5px;
+    }
+
+    .btn {
+        border-radius: 0.5rem;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    h2, h4, p {
+        color: #fff;
+    }
+
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(10px);
+    }
+
+    .navbar-brand {
+
+        font-weight: bold;
+        color: #fff !important;
+        letter-spacing: 1px;
+    }
+
+    .nav-link {
+        color: #f8f9fa !important;
+    }
+
+    .auth-title {
+        font-weight: 600;
+        color: #fff;
+
+    }
+
+    @media (max-width: 768px) {
+        .glass-card {
+            padding: 2rem;
+        }
+    }
+
+    input, select, textarea {
+        border-radius: 0.5rem !important;
+        padding: 10px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.9);
+        border: none;
+        color: black;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .glass-card {
+        background: rgba(255, 255, 255, 0.12);
+        backdrop-filter: blur(20px);
+        border-radius: 1rem;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    }
+</style>
+
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="glass-card">
+        <h2 class="text-center mb-5">🌐 Lesson Planner</h2>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6" id="signup">
+                <div class="p-4 rounded-4 shadow glass-card">
+                    <h4 class="text-center text-white mb-4">🔐 Login</h4>
+                    <form method="post">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                        <button type="submit" class="btn btn-primary w-100 rounded-pill">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,81 @@
+    {% extends "base.html" %}
+    {% load static %}
+    {% load widget_tweaks %}
+
+    {% block content %}
+    <style>
+        body {
+            background: url('https://images.unsplash.com/photo-1616400619175-5beda3a17896') no-repeat center center fixed;
+            background-size: cover;
+        }
+        
+        .page-wrapper {
+            min-height: 100vh;
+            padding-top: 100px;
+            padding-bottom: 80px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .overlay-section {
+            background-color: rgba(255, 255, 255, 0.6);
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(8px);
+        }
+
+        .list-group-item {
+            background-color: transparent;
+            border: none;
+            padding-left: 0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding-top: 100px;
+                padding-bottom: 100px;
+            }
+
+            .overlay-section {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+
+    <div class="container">
+        <div class="overlay-section">
+            <div class="text-center mb-5">
+                <h1 class="display-4 fw-bold" style="color: black;">📘 Lesson Planner GPT</h1>
+                <p class="lead text-muted">
+                    Your intelligent assistant for crafting personalized, curriculum-aligned lesson plans—faster, smarter, and easier.
+                </p>
+            </div>
+
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4341/4341139.png" alt="Lesson Planner Illustration" class="img-fluid">
+                </div>
+                <div class="col-md-6" style="color: black; font-size: 1.2rem;">
+                    <h3 class="fw-semibold mb-3">What is Lesson Planner GPT?</h3>
+                    <p>
+                        Lesson Planner GPT is a powerful AI tool designed specifically for educators. It helps you generate high-quality, ready-to-use lesson plans based on your subject, grade level, objectives, and preferences.
+                    </p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">✅ Tailored to your teaching goals</li>
+                        <li class="list-group-item">✅ Aligns with curriculum standards</li>
+                        <li class="list-group-item">✅ Suggests engaging activities & assessments</li>
+                        <li class="list-group-item">✅ Easy to review, refine, and reuse</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <p class="text-muted fst-italic">
+                    Ready to experience AI-powered lesson planning? Log in or sign up to get started.
+                </p>
+            </div>
+        </div>
+    </div>
+    {% endblock %}

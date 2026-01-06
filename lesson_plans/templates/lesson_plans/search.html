@@ -1,0 +1,489 @@
+{% extends "base.html" %}
+{% load static %}
+{% load widget_tweaks %}
+
+{% block content %}
+
+<style>
+  :root {
+    --bg: #0f111a;
+    --card: #1c1e2e;
+    --text: #e0e0e0;
+    --highlight: #5e81f4;
+    --shadow: rgba(94, 129, 244, 0.15);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    height: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin: 1rem 0;
+    text-shadow: 0 0 8px var(--highlight);
+  }
+
+  .chat {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .message {
+    background-color: var(--card);
+    border-radius: 12px;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px var(--shadow);
+    white-space: pre-line;
+    line-height: 1.6;
+    max-width: 75%;
+  }
+  
+  .user {
+    align-self: flex-end;
+    background-color: #25283b;
+    border-bottom-right-radius: 0;
+    margin-left: auto;
+    text-align: right;
+  }
+  
+  .assistant {
+    align-self: flex-start;
+    background-color: var(--card);
+    border-bottom-left-radius: 0;
+    margin-right: auto;
+    text-align: left;
+  }
+  
+
+  .input-area {
+    background-color: #1a1c2d;
+    padding: 1rem;
+    border-top: 1px solid #333;
+    box-shadow: 0 -2px 10px var(--shadow);
+  }
+
+  .toolbar-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+  }
+
+  .toolbar-form select,
+  .toolbar-form details {
+    background-color: var(--card);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 0.95rem;
+  }
+
+  .tone-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .tone-box label {
+    font-size: 0.85rem;
+  }
+
+  .submit-wrapper {
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+    margin-top: 0.75rem;
+  }
+
+  .submit-wrapper textarea {
+    flex: 1;
+    min-height: 3rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: var(--card);
+    color: white;
+    border: none;
+    resize: vertical;
+    font-size: 1rem;
+  }
+
+  .submit-wrapper button {
+    background-color: var(--highlight);
+    color: white;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px var(--shadow);
+  }
+
+  .no-results {
+    font-style: italic;
+    color: #999;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .custom-multiselect {
+    position: relative;
+    width: 180px;
+  }
+  
+  .select-box {
+    background-color: var(--card);
+    color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .select-box span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 130px;
+  }
+  
+  .dropdown-list {
+    display: none;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    background-color: var(--card);
+    border-radius: 8px;
+    padding: 0.5rem;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 999;
+    box-shadow: 0 4px 12px var(--shadow);
+  }
+  
+  .dropdown-list label {
+    display: block;
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+  
+  .dropdown-list input {
+    margin-right: 0.5rem;
+  }
+  
+  .checkmark {
+    color: var(--highlight);
+  }
+
+  /* Modal Styles */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .modal-content {
+    background-color: var(--card);
+    margin: 15% auto;
+    padding: 1.5rem;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 20px var(--shadow);
+    text-align: center;
+  }
+
+  .modal-title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+
+  .modal-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+
+  .modal-button {
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  .confirm-button {
+    background-color: #f44336;
+    color: white;
+  }
+
+  .cancel-button {
+    background-color: #555;
+    color: white;
+  }
+  .input-area-con{
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  @media (max-width: 1550px) {
+    .input-area-con {
+      width: 1000px;
+      margin-left: 290px;
+      margin-right: 20px;
+  }
+  }
+</style>
+
+<div style="position: fixed; top: 0; left: 0; width: 240px; height: 100vh; background-color: #1a1c2d; padding: 1rem; overflow-y: auto; border-right: 1px solid #333; margin-top: 60px ">
+  <h3 style="color: white; margin-bottom: 1rem;">💬 GPT</h3>
+
+  <a href="?new_chat=1" style="display: block; background-color: var(--highlight); color: white; text-align: center; padding: 0.5rem; margin-bottom: 1rem; border-radius: 8px; text-decoration: none;">+ New Chat</a>
+
+  {% for session in sessions %}
+    <div style="display: flex; align-items: center; justify-content: space-between; padding: 0.3rem 0.5rem; margin-bottom: 0.5rem; background-color: {% if session.id|stringformat:"s" == chat_id|stringformat:"s" %}#2a2d40{% else %}transparent{% endif %}; border-radius: 6px;">
+      <a href="?chat_id={{ session.id }}" style="color: white; text-decoration: none; font-size: 0.85rem; flex-grow: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+        {{ session.title|default:"Chat " }}{{ forloop.counter }}
+      </a>
+      <button type="button" class="delete-button"
+              onclick="confirmDelete('{{ session.id }}', '{{ session.title|default:"Chat"|addslashes }}')"
+              title="Delete Chat"
+              style="background: none; border: none; color: #aaa; cursor: pointer;">🗑️</button>
+    </div>
+  {% empty %}
+    <p style="color: #aaa;">No chats yet</p>
+  {% endfor %}
+</div>
+
+<!-- Delete Confirmation Modal -->
+<div id="deleteModal" class="modal">
+  <div class="modal-content">
+    <h4 class="modal-title">Delete Chat</h4>
+    <p id="deleteConfirmationText">Are you sure you want to delete this chat?</p>
+    <div class="modal-actions">
+      <button class="modal-button cancel-button" onclick="closeModal()">Cancel</button>
+      <form id="deleteForm" action="" method="POST" style="display: inline;">
+        {% csrf_token %}
+        <button type="submit" class="modal-button confirm-button">Delete</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="container chatBox">
+  <h2>✨ Lesson Planner</h2>
+
+  <div class="chat" id="chat-area">
+    {% for msg in messages %}
+      <div class="message {{ msg.role }}">
+        <strong>{{ msg.role|title }}:</strong><br>
+        {{ msg.content|linebreaksbr }}
+      </div>
+    {% endfor %}
+    <div id="loader" class="message assistant" style="display: none;">
+      <em>⏳ Generating your lesson, please wait...</em>
+    </div>
+  </div>
+</div>
+
+
+<div class="input-area-con">
+  <div class="input-area">
+    <form method="get" onsubmit="return showLoader()" class="toolbar-form">
+      <select name="model">
+        <option value="gpt-4o-mini-2024-07-18" {% if selected_model == "gpt-4o-mini-2024-07-18" %}selected{% endif %}>GPT-4o Mini (Default)</option>
+        <option value="gpt-4o-2024-08-06" {% if selected_model == "gpt-4o-2024-08-06" %}selected{% endif %}>GPT-4o</option>
+        <option value="gpt-4-turbo-2024-04-09" {% if selected_model == "gpt-4-turbo-2024-04-09" %}selected{% endif %}>GPT-4 Turbo</option>
+      </select>
+
+      <select name="philosophy">
+        <option value="">Philosophy</option>
+        {% for philosophy in philosophies %}
+          <option value="{{ philosophy.id }}" {% if philosophy.id|stringformat:"s" == selected_philosophy_id %}selected{% endif %}>{{ philosophy.title }}</option>
+        {% endfor %}
+      </select>
+
+      <div class="custom-multiselect">
+        <div class="select-box" onclick="toggleDropdown('persona-dropdown')">
+          <span id="selected-personas">Select Personas</span>
+          <div class="arrow">▼</div>
+        </div>
+        <div class="dropdown-list" id="persona-dropdown">
+          {% for persona in personas %}
+            <label>
+              <input type="checkbox" name="personas" value="{{ persona.id }}" {% if persona.id in selected_persona_ids %}checked{% endif %} onchange="updateSelectionDisplay('personas')">
+              <span class="checkmark">{% if persona.id in selected_persona_ids %}✔ {% endif %}</span>{{ persona.title }}
+            </label>
+          {% endfor %}
+        </div>
+      </div>
+
+      <select name="voice">
+        <option value="">Voice</option>
+        {% for voice in voices %}
+          <option value="{{ voice.id }}" {% if voice.id|stringformat:"s" == selected_voice_id %}selected{% endif %}>{{ voice.title }}</option>
+        {% endfor %}
+      </select>
+
+      <!-- New Custom Multiselect for Tones -->
+      <div class="custom-multiselect">
+        <div class="select-box" onclick="toggleDropdown('tone-dropdown')">
+          <span id="selected-tones">Select Tones</span>
+          <div class="arrow">▼</div>
+        </div>
+        <div class="dropdown-list" id="tone-dropdown">
+          {% for tone in tones %}
+            <label>
+              <input type="checkbox" name="tones" value="{{ tone.id }}" {% if tone.id in selected_tone_ids %}checked{% endif %} onchange="updateSelectionDisplay('tones')" class="tone-checkbox">
+              <span class="checkmark">{% if tone.id in selected_tone_ids %}✔ {% endif %}</span>{{ tone.title }}
+            </label>
+          {% endfor %}
+        </div>
+      </div>
+
+      <input type="hidden" name="chat_id" value="{{ chat_id|default:'' }}">
+
+      <div class="submit-wrapper">
+        <textarea name="query" id="query-input" placeholder="Enter a lesson topic..." required>{{ query }}</textarea>
+        <button type="submit">➤</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+  function showLoader() {
+    document.getElementById("loader").style.display = "block";
+    return true;
+  }
+
+  function toggleDropdown(dropdownId) {
+    const dropdown = document.getElementById(dropdownId);
+    dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+    
+    // Close other dropdowns
+    const allDropdowns = document.querySelectorAll('.dropdown-list');
+    allDropdowns.forEach(item => {
+      if (item.id !== dropdownId && item.style.display === "block") {
+        item.style.display = "none";
+      }
+    });
+  }
+  
+  function updateSelectionDisplay(type) {
+    const checkboxes = document.querySelectorAll(`input[name="${type}"]:checked`);
+    const names = Array.from(checkboxes).map(cb => cb.parentElement.textContent.trim());
+    const displayElement = document.getElementById(`selected-${type}`);
+    
+    if (names.length > 0) {
+      // Show full items in tooltip for accessibility
+      displayElement.title = names.join(", ");
+      displayElement.textContent = names.join(", ");
+    } else {
+      displayElement.title = "";
+      displayElement.textContent = `Select ${type.charAt(0).toUpperCase() + type.slice(1)}`;
+    }
+    
+    // Apply limits for tones (max 3)
+    if (type === 'tones') {
+      const toneCheckboxes = document.querySelectorAll('.tone-checkbox');
+      const checkedTones = Array.from(toneCheckboxes).filter(cb => cb.checked);
+      
+      toneCheckboxes.forEach(cb => {
+        cb.disabled = checkedTones.length >= 3 && !cb.checked;
+      });
+    }
+  }
+  
+  // Delete confirmation functions
+  function confirmDelete(chatId, chatTitle) {
+    const modal = document.getElementById('deleteModal');
+    const deleteForm = document.getElementById('deleteForm');
+    const confirmText = document.getElementById('deleteConfirmationText');
+    
+    // Set the form action
+    deleteForm.action = "{% url 'delete_chat' 0 %}".replace('0', chatId);
+    
+    // Set confirmation text
+    confirmText.textContent = `Are you sure you want to delete this session?`;
+    
+    // Show modal
+    modal.style.display = 'block';
+  }
+  
+  function closeModal() {
+    const modal = document.getElementById('deleteModal');
+    modal.style.display = 'none';
+  }
+  
+  // Close modal when clicking outside
+  window.onclick = function(event) {
+    const modal = document.getElementById('deleteModal');
+    if (event.target == modal) {
+      modal.style.display = 'none';
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    // Initialize all selection displays
+    updateSelectionDisplay('personas');
+    updateSelectionDisplay('tones');
+    
+    // Close dropdowns when clicking outside
+    document.addEventListener('click', function(event) {
+      const dropdowns = document.querySelectorAll('.custom-multiselect');
+      dropdowns.forEach(dropdown => {
+        const isClickInside = dropdown.contains(event.target);
+        if (!isClickInside) {
+          const dropdownList = dropdown.querySelector('.dropdown-list');
+          if (dropdownList.style.display === 'block') {
+            dropdownList.style.display = 'none';
+          }
+        }
+      });
+    });
+
+    const chatArea = document.getElementById("chat-area");
+    if (chatArea) chatArea.scrollTop = chatArea.scrollHeight;
+
+    const input = document.getElementById("query-input");
+    if (input) input.focus();
+  });
+</script>
+
+{% endblock %}

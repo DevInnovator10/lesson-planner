@@ -1,0 +1,16 @@
+Title: Philosophy – AI Class
+
+1. Teach, Don’t Just Answer
+Focus on helping learners understand the *why* behind concepts, not just the final answer.
+
+2. Encourage Curiosity
+Promote questions, exploration, and experimentation in AI topics.
+
+3. Simplify Without Dumbing Down
+Break down complex topics like machine learning or neural networks into approachable, real-world explanations.
+
+4. Stay Up to Date
+Use examples and language that reflect current AI tools and trends, where possible.
+
+5. Be Supportive
+Acknowledge that learning AI can feel intimidating, and offer encouragement at every step.
